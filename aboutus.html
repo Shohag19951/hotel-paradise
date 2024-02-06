@@ -8,235 +8,111 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-  <nav class="bg-white container mx-auto">
-    <div class="flex items-center justify-between py-8  ">
-      <a href="/index.html">
-          <img src="images/logo.png" alt="">
-      </a>
-      <ul class="flex text-[20px] gap-14 font-medium">
-        <li>
-          <a href="#" class="text-black hover:text-[#7C6A46]">Home</a>
-        </li>
-        <li>
-          <a href="#" class="text-black hover:text-[#7C6A46]">Explore</a>
-        </li>
-        <li>
-          <a href="#" class="text-black hover:text-[#7C6A46]">Rooms</a>
-        </li>
-        <li>
-          <a href="#" class="text-black hover:text-[#7C6A46]">About</a>
-        </li>
-        <li>
-          <a href="#" class="text-black hover:text-[#7C6A46]">Contact</a>
-        </li>
-      </ul>
-      <button class="px-10 py-4 rounded bg-[#7C6A46] text-white">Book Now</button>
+  <nav class="mx-auto bg-gray-100 border-b-2 border-gray-300 container mx-auto">
+    <div class="flex flex-col sm:flex-row items-center justify-between py-8">
+        <a href="/index.html">
+            <img src="images/logo.png" alt="">
+        </a>
+        <ul class="flex flex-col sm:flex-row text-[20px] gap-4 sm:gap-14 font-medium">
+            <li>
+                <a href="#" class="text-black hover:text-[#7C6A46]">Home</a>
+            </li>
+            <li>
+                <a href="#" class="text-black hover:text-[#7C6A46]">Explore</a>
+            </li>
+            <li>
+                <a href="#" class="text-black hover:text-[#7C6A46]">Rooms</a>
+            </li>
+            <li>
+                <a href="#" class="text-black hover:text-[#7C6A46]">About</a>
+            </li>
+            <li>
+                <a href="#" class="text-black hover:text-[#7C6A46]">Contact</a>
+            </li>
+        </ul>
+        <button class="px-6 py-3 rounded bg-[#7C6A46] text-white mt-4 sm:mt-0">Book Now</button>
     </div>
-  </nav>
+</nav>
 <!-- Suites--> 
-<div class="w-auto h-auto bg-no-repeat bg-cover bg-center"
-style="background-image: url(images/video.png);">
-<div class="text-center pt-56 pb-36 ">
-  <p class="text-6xl font-bold text-white">About us</p>
-  <p class="text-lg font-semibold text-white max-w-lg mx-auto py-6">The elegant luxury bedrooms in this gallery showcase custom interior 
-  designs & decorating ideas. View pictures and find your
-   perfect luxury bedroom design.</p>
-</div>   
+<div class="w-full h-auto bg-no-repeat bg-cover bg-center relative" style="background-image: url(images/video.png);">
+  <div class="text-center pt-16 sm:pt-56 pb-8 sm:pb-36 px-4">
+      <p class="text-4xl sm:text-6xl font-bold text-white">About us</p>
+      <p class="text-base sm:text-lg font-semibold text-white max-w-lg mx-auto py-6">The elegant luxury bedrooms in this gallery showcase custom interior designs & decorating ideas. View pictures and find your perfect luxury bedroom design.</p>
+  </div>   
 </div>
 <!-- Manager--> 
-    <div class="mx-20 my-20 gap-32 flex justify-between ">
-       <div>
-        <img src="images/manager.png" alt="">
-        <p class="text-2xl  font-semibold text-center py-5">Chidinma James (Manager)</p>
-       </div>
-       <div class="box-border h-88 w-auto text-justify">
-        <p>The United Nations is an international organization founded in 1945. Currently made up of 193 Member States, the UN and its work are guided by the purposes and principles contained in its founding Charter.
-            The UN has evolved over the years to keep pace with a rapidly changing world.
-            But one thing has stayed the same: it remains the one place on Earth where all the world’s nations can gather together, discuss common problems, and find shared solutions that benefit all of humanity. The Secretary-General is Chief Administrative Officer of the UN – and is also a symbol of the Organization's ideals and an advocate for all the world's peoples, especially the poor and vulnerable.
-            
-            The Secretary-General is appointed by the General Assembly on the recommendation of the Security Council for a 5-year, renewable term.
-            The current Secretary-General, and the 9th occupant of the post, is António Guterres of Portugal, who took office on 1 January 2017.
-            On the 18th of June, 2021, Guterres was re-appointed to a second term, pledging as his priority to continue helping the world chart a course out of the COVID-19 pandemic.
-            
-            The United Nations is an international organization founded in 1945. Currently made up of 193 Member States, the UN and its work are guided by the purposes and principles contained in its founding Charter.
-            The UN has evolved over the years to keep pace with a rapidly changing world.
-            But one thing has stayed the same: it remains the one place on Earth where all the world’s nations can gather together, discuss common problems, and find shared solutions that benefit all of humanity. The Secretary-General is Chief Administrative Officer of the UN – and is also a symbol of the Organization's ideals and an advocate for all the world's peoples, especially the poor and vulnerable.
-            
-            The Secretary-General is appointed by the General Assembly on the recommendation of the Security Council for a 5-year, renewable term.
-            The current Secretary-General, and the 9th occupant of the post, is António Guterres of Portugal, who took office on 1 January 2017.
-            On the 18th of June, 2021, Guterres was re-appointed to a second term, pledging as his priority to continue helping the world chart a course out of the COVID-19 pandemic.</p>  
-       </div> 
-    </div>
+<div class="mx-4 md:mx-20 my-8 md:my-20 flex flex-col md:flex-row gap-4 md:gap-32">
+  <div class="w-full md:w-auto flex-shrink-0">
+      <img src="images/manager.png" alt="Manager Image" class="w-full md:w-auto ml-12" style="max-width: 300px;">
+      <p class="text-xl md:text-2xl font-semibold text-center py-5">Chidinma James (Manager)</p>
+  </div>
+  <div class="w-full md:w-auto">
+      <p class="text-base md:text-lg text-justify">
+        The United Nations is an international organization founded in 1945. Currently made up of 193 Member States, the UN and its work are guided by the purposes and principles contained in its founding Charter.
+        The UN has evolved over the years to keep pace with a rapidly changing world.
+        But one thing has stayed the same: it remains the one place on Earth where all the world’s nations can gather together, discuss common problems, and find shared solutions that benefit all of humanity. The Secretary-General is Chief Administrative Officer of the UN – and is also a symbol of the Organization's ideals and an advocate for all the world's peoples, especially the poor and vulnerable.
+        
+        The Secretary-General is appointed by the General Assembly on the recommendation of the Security Council for a 5-year, renewable term.
+        The current Secretary-General, and the 9th occupant of the post, is António Guterres of Portugal, who took office on 1 January 2017.
+        On the 18th of June, 2021, Guterres was re-appointed to a second term, pledging as his priority to continue helping the world chart a course out of the COVID-19 pandemic.
+        
+        The United Nations is an international organization founded in 1945. Currently made up of 193 Member States, the UN and its work are guided by the purposes and principles contained in its founding Charter.
+        The UN has evolved over the years to keep pace with a rapidly changing world.
+        But one thing has stayed the same: it remains the one place on Earth where all the world’s nations can gather together, discuss common problems, and find shared solutions that benefit all of humanity. The Secretary-General is Chief Administrative Officer of the UN – and is also a symbol of the Organization's ideals and an advocate for all the world's peoples, especially the poor and vulnerable.
+        
+        The Secretary-General is appointed by the General Assembly on the recommendation of the Security Council for a 5-year, renewable term.
+        The current Secretary-General, and the 9th occupant of the post, is António Guterres of Portugal, who took office on 1 January 2017.
+        On the 18th of June, 2021, Guterres was re-appointed to a second term, pledging as his priority to continue helping the world chart a course out of the COVID-19 pandemic.
+      </p>  
+  </div> 
+</div>
 <!-- Client-->
-    <div class="mx-20 my-20">
-        <p class="text-6xl font-bold text-center">Clients</p>
-        <div class="mt-20 flex gap-20 block justify-center">
-            <img src="images/image 4.png" alt="">
-            <img src="images/image 5.png" alt="">
-            <img src="images/image 6.png" alt="">
-            <img src="images/image 7.png" alt="">
-            <img src="images/image 8.png" alt="">
-        </div>
-    </div>
-    <!-- Footer-->
-<div class="bg-amber-900 w-auto py-24 ">
-    <div class="mx-20 flex gap-12 justify-between">
-      <div class="box-border h-88 w-96">
-          <p class="text-4xl  text-white font-semibold py-5 ">Paradise view</p>
-          <p class="text-lg font-semibold text-white text-justify">The service at the Hotel Monteleone was exceptional. There was absolutely no issue that was not addressed timely and with satisfactory results. We were particulary<br> impressed with how the hotel staff anticipated our needs(periodically coming by the Board Room to check with us)</p>
+<div class="mx-4 md:mx-20 my-8 md:my-20">
+  <p class="text-4xl md:text-6xl font-bold text-center">Clients</p>
+  <div class="mt-10 md:mt-20 flex flex-col md:flex-row gap-6 md:gap-20 items-center justify-center">
+      <img src="images/image 4.png" alt="Client Image" class="w-24 md:w-auto max-w-xs md:max-w-none ">
+      <img src="images/image 5.png" alt="Client Image" class="w-24 md:w-auto max-w-xs md:max-w-none">
+      <img src="images/image 6.png" alt="Client Image" class="w-24 md:w-auto max-w-xs md:max-w-none">
+      <img src="images/image 7.png" alt="Client Image" class="w-24 md:w-auto max-w-xs md:max-w-none">
+      <img src="images/image 8.png" alt="Client Image" class="w-24 md:w-auto max-w-xs md:max-w-none">
+  </div>
+</div>
+<!-- Footer-->
+<div class="bg-amber-900 py-12 sm:py-24">
+  <div class="mx-4 sm:mx-20 flex flex-col sm:flex-row gap-12 justify-center">
+      <div class="box-border h-auto w-full sm:w-96">
+          <p class="text-3xl sm:text-4xl text-white font-semibold py-5">Paradise view</p>
+          <p class="text-base sm:text-lg font-semibold text-white text-justify">The service at the Hotel Monteleone was exceptional. There was absolutely no issue that was not addressed timely and with satisfactory results. We were particularly impressed with how the hotel staff anticipated our needs (periodically coming by the Board Room to check with us)</p>
       </div>
-      <div>
-        <p class="text-4xl  text-white font-semibold py-5 ">Quick links</p>
-        <p class="text-lg font-semibold text-white">Room booking</p>
-        <p class="text-lg font-semibold text-white">Rooms</p>
-        <p class="text-lg font-semibold text-white">Contact</p>
-        <p class="text-lg font-semibold text-white">Explore</p>
+      <div class="flex flex-col">
+          <div class="text-3xl sm:text-4xl text-white font-semibold py-5">Quick links</div>
+          <p class="text-lg font-semibold text-white">Room booking</p>
+          <p class="text-lg font-semibold text-white">Rooms</p>
+          <p class="text-lg font-semibold text-white">Contact</p>
+          <p class="text-lg font-semibold text-white">Explore</p>
       </div>
-      <div>
-        <p class="text-4xl  text-white font-semibold py-5">Company</p>
-        <p class="text-lg font-semibold text-white">Privacy policy</p>
-        <p class="text-lg font-semibold text-white">F.A.Q</p>
-        <p class="text-lg font-semibold text-white">About</p>
+      <div class="flex flex-col">
+          <div class="text-3xl sm:text-4xl text-white font-semibold py-5">Company</div>
+          <p class="text-lg font-semibold text-white">Privacy policy</p>
+          <p class="text-lg font-semibold text-white">F.A.Q</p>
+          <p class="text-lg font-semibold text-white">About</p>
       </div>
-      <div>
-        <p class="text-4xl  text-white font-semibold py-5" >Social Media</p>
-        <p class="text-lg font-semibold text-white">Facebook</p>
-        <p class="text-lg font-semibold text-white">Twitter</p>
-        <p class="text-lg font-semibold text-white" >Instagram</p>
-        <p class="text-lg font-semibold text-white" >Linkedin</p>
+      <div class="flex flex-col">
+          <div class="text-3xl sm:text-4xl text-white font-semibold py-5">Social Media</div>
+          <p class="text-lg font-semibold text-white">Facebook</p>
+          <p class="text-lg font-semibold text-white">Twitter</p>
+          <p class="text-lg font-semibold text-white">Instagram</p>
+          <p class="text-lg font-semibold text-white">Linkedin</p>
       </div>
-      <div>
-      <p class="text-4xl  text-white font-semibold py-5">Newsletter</p>
-      <p class="text-lg font-semibold text-white pb-3">Kindly subscribe to our newsletter to get latest<br> deals on our rooms and vacation discount.</p>
-        <input class="py-2 rounded-xl" type="email" name="email" id="email" placeholder="Email">
-        <input class="text-white box-border h-12 w-20 bg-amber-700 rounded-2xl" type="submit" value="Subscribe">
-      </div>
-    </div>
-</body>
-=======
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>aboutus</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body>
-    <nav class="bg-white border-gray-200 dark:bg-gray-900">
-        <div class="max-w-screen-xl flex flex-wrap items-center justify-between py-12 mx-auto">
-          <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
-              <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"><img src="images/logo.png" alt=""></span>
-          </a>
-          <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
-            <span class="sr-only">Open main menu</span>
-            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-            </svg>
-        </button>
-          <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-            <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-              <li>
-                <a href="#" class="block py-2 px-3 text-white bg-blue-700 text-2xl rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Home</a>
-              </li>
-              <li>
-                <a href="#" class="block py-2 px-3 text-gray-900 rounded text-2xl hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Explore</a>
-              </li>
-              <li>
-                <a href="#" class="block py-2 px-3 text-gray-900 rounded text-2xl hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Room</a>
-              </li>
-              <li>
-                <a href="#" class="block py-2 px-3 text-gray-900 rounded text-2xl hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
-              </li>
-              <li>
-                <a href="#" class="block py-2 px-3 text-gray-900 rounded \ hover:bg-gray-100 text-2xl md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
-              </li>
-              <li>
-                <button class="text-2xl font-semibold  py-3  bg-amber-900">Book Now</button>
-              </li>
-            </ul>
+      <div class="flex flex-col">
+          <div class="text-3xl sm:text-4xl text-white font-semibold py-5">Newsletter</div>
+          <p class="text-lg font-semibold text-white pb-3">Kindly subscribe to our newsletter to get latest deals on our rooms and vacation discount.</p>
+          <div class="flex">
+              <input class="py-2 px-4 rounded-xl mr-2" type="email" name="email" id="email" placeholder="Email">
+              <input class="py-2 px-4 bg-amber-700 text-white rounded-xl" type="submit" value="Subscribe">
           </div>
         </div>
-      </nav>
-<!-- Suites--> 
-<div class="w-auto h-96 bg-no-repeat bg-cover bg-center"
-      style="background-image: url(images/video.png);">
-    <div class="text-center pt-32   ">
-      <p class="text-6xl font-bold text-white">About us</p>
-      <p class="text-lg font-semibold text-white px-96 py-5">The elegant luxury bedrooms in this gallery showcase custom interior 
-      designs & decorating ideas. View pictures and find your
-       perfect luxury bedroom design.</p>
-    </div>   
-</div>
-<!-- Manager--> 
-    <div class="mx-20 my-20 gap-32 flex justify-between ">
-       <div>
-        <img src="images/manager.png" alt="">
-        <p class="text-2xl  font-semibold text-center py-5">Chidinma James (Manager)</p>
-       </div>
-       <div class="box-border h-88 w-auto text-justify">
-        <p>The United Nations is an international organization founded in 1945. Currently made up of 193 Member States, the UN and its work are guided by the purposes and principles contained in its founding Charter.
-            The UN has evolved over the years to keep pace with a rapidly changing world.
-            But one thing has stayed the same: it remains the one place on Earth where all the world’s nations can gather together, discuss common problems, and find shared solutions that benefit all of humanity. The Secretary-General is Chief Administrative Officer of the UN – and is also a symbol of the Organization's ideals and an advocate for all the world's peoples, especially the poor and vulnerable.
-            
-            The Secretary-General is appointed by the General Assembly on the recommendation of the Security Council for a 5-year, renewable term.
-            The current Secretary-General, and the 9th occupant of the post, is António Guterres of Portugal, who took office on 1 January 2017.
-            On the 18th of June, 2021, Guterres was re-appointed to a second term, pledging as his priority to continue helping the world chart a course out of the COVID-19 pandemic.
-            
-            The United Nations is an international organization founded in 1945. Currently made up of 193 Member States, the UN and its work are guided by the purposes and principles contained in its founding Charter.
-            The UN has evolved over the years to keep pace with a rapidly changing world.
-            But one thing has stayed the same: it remains the one place on Earth where all the world’s nations can gather together, discuss common problems, and find shared solutions that benefit all of humanity. The Secretary-General is Chief Administrative Officer of the UN – and is also a symbol of the Organization's ideals and an advocate for all the world's peoples, especially the poor and vulnerable.
-            
-            The Secretary-General is appointed by the General Assembly on the recommendation of the Security Council for a 5-year, renewable term.
-            The current Secretary-General, and the 9th occupant of the post, is António Guterres of Portugal, who took office on 1 January 2017.
-            On the 18th of June, 2021, Guterres was re-appointed to a second term, pledging as his priority to continue helping the world chart a course out of the COVID-19 pandemic.</p>  
-       </div> 
-    </div>
-<!-- Client-->
-    <div class="mx-20 my-20">
-        <p class="text-6xl font-bold text-center">Clients</p>
-        <div class="mt-20 flex gap-20 block justify-center">
-            <img src="images/image 4.png" alt="">
-            <img src="images/image 5.png" alt="">
-            <img src="images/image 6.png" alt="">
-            <img src="images/image 7.png" alt="">
-            <img src="images/image 8.png" alt="">
-        </div>
-    </div>
-    <!-- Footer-->
-<div class="bg-amber-900 w-auto py-24 ">
-    <div class="mx-20 flex gap-12 justify-between">
-      <div class="box-border h-88 w-96">
-          <p class="text-4xl  text-white font-semibold py-5 ">Paradise view</p>
-          <p class="text-lg font-semibold text-white text-justify">The service at the Hotel Monteleone was exceptional. There was absolutely no issue that was not addressed timely and with satisfactory results. We were particulary<br> impressed with how the hotel staff anticipated our needs(periodically coming by the Board Room to check with us)</p>
-      </div>
-      <div>
-        <p class="text-4xl  text-white font-semibold py-5 ">Quick links</p>
-        <p class="text-lg font-semibold text-white">Room booking</p>
-        <p class="text-lg font-semibold text-white">Rooms</p>
-        <p class="text-lg font-semibold text-white">Contact</p>
-        <p class="text-lg font-semibold text-white">Explore</p>
-      </div>
-      <div>
-        <p class="text-4xl  text-white font-semibold py-5">Company</p>
-        <p class="text-lg font-semibold text-white">Privacy policy</p>
-        <p class="text-lg font-semibold text-white">F.A.Q</p>
-        <p class="text-lg font-semibold text-white">About</p>
-      </div>
-      <div>
-        <p class="text-4xl  text-white font-semibold py-5" >Social Media</p>
-        <p class="text-lg font-semibold text-white">Facebook</p>
-        <p class="text-lg font-semibold text-white">Twitter</p>
-        <p class="text-lg font-semibold text-white" >Instagram</p>
-        <p class="text-lg font-semibold text-white" >Linkedin</p>
-      </div>
-      <div>
-      <p class="text-4xl  text-white font-semibold py-5">Newsletter</p>
-      <p class="text-lg font-semibold text-white pb-3">Kindly subscribe to our newsletter to get latest<br> deals on our rooms and vacation discount.</p>
-        <input class="py-2 rounded-xl" type="email" name="email" id="email" placeholder="Email">
-        <input class="text-white box-border h-12 w-20 bg-amber-700 rounded-2xl" type="submit" value="Subscribe">
       </div>
     </div>
-</body>
->>>>>>> e73567dcadbca62f29cb81663b8eb4631135158d
-</html>
+  </body>
+  </html>
