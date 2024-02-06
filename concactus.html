@@ -8,95 +8,99 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-  <nav class="bg-white container mx-auto">
-    <div class="flex items-center justify-between py-8  ">
-      <a href="/index.html">
-          <img src="images/logo.png" alt="">
-      </a>
-      <ul class="flex text-[20px] gap-14 font-medium">
-        <li>
-          <a href="#" class="text-black hover:text-[#7C6A46]">Home</a>
-        </li>
-        <li>
-          <a href="#" class="text-black hover:text-[#7C6A46]">Explore</a>
-        </li>
-        <li>
-          <a href="#" class="text-black hover:text-[#7C6A46]">Rooms</a>
-        </li>
-        <li>
-          <a href="#" class="text-black hover:text-[#7C6A46]">About</a>
-        </li>
-        <li>
-          <a href="#" class="text-black hover:text-[#7C6A46]">Contact</a>
-        </li>
-      </ul>
-      <button class="px-10 py-4 rounded bg-[#7C6A46] text-white">Book Now</button>
+  <nav class="mx-auto bg-gray-100 border-b-2 border-gray-300 container mx-auto">
+    <div class="flex flex-col sm:flex-row items-center justify-between py-8">
+        <a href="/index.html">
+            <img src="images/logo.png" alt="">
+        </a>
+        <ul class="flex flex-col sm:flex-row text-[20px] gap-4 sm:gap-14 font-medium">
+            <li>
+                <a href="#" class="text-black hover:text-[#7C6A46]">Home</a>
+            </li>
+            <li>
+                <a href="#" class="text-black hover:text-[#7C6A46]">Explore</a>
+            </li>
+            <li>
+                <a href="#" class="text-black hover:text-[#7C6A46]">Rooms</a>
+            </li>
+            <li>
+                <a href="#" class="text-black hover:text-[#7C6A46]">About</a>
+            </li>
+            <li>
+                <a href="#" class="text-black hover:text-[#7C6A46]">Contact</a>
+            </li>
+        </ul>
+        <button class="px-6 py-3 rounded bg-[#7C6A46] text-white mt-4 sm:mt-0">Book Now</button>
     </div>
-  </nav>
+</nav>
 <!-- Suites--> 
-<div class="w-auto h-auto bg-no-repeat bg-cover bg-center"
-style="background-image: url(images/video.png);">
-<div class="text-center pt-56 pb-36 ">
-  <p class="text-6xl font-bold text-white">Rooms and Suites</p>
-  <p class="text-lg font-semibold text-white max-w-lg mx-auto py-6">The elegant luxury bedrooms in this gallery showcase custom interior 
-  designs & decorating ideas. View pictures and find your
-   perfect luxury bedroom design.</p>
-</div>   
-</div>
-     <div class="mx-20 my-20"  >
-        <div class="gap-32">
-         <div class="flex gap-16">
-          <div class="w-full">
-            <p class="text-lg pb-2">Full Name</p>
-            <input class=" w-full px-5 py-6 border outline-none border-black" type="email" name="email" placeholder="e.g John Becke">
-          </div>
-          <div class="w-full">
-            <p class="text-lg pb-2">Email</p>
-            <input class=" w-full px-5 py-6 border outline-none border-black" type="email" name="email" placeholder="johnbecker@gmail.com">
-          </div>
-         </div>
-         <div class="w-full mt-8">
-          <p class="text-lg pb-2">Massage</p>
-          <textarea  class=" w-full p-6 border outline-none  border-black" name="" id="" cols="30" rows="10" placeholder="Massage"></textarea>
-        </div>   
-        </div>
-    </div>
-    <div class="w-auto h-96 bg-no-repeat bg-cover bg-center"
-    style="background-image: url(images/Rectangle\ 36.png);">
+<div class="mx-4 md:mx-20 my-8 md:my-20">
+  <div class="w-full h-64 md:h-auto bg-no-repeat bg-cover bg-center" style="background-image: url('images/video.png');">
+      <div class="text-center pt-16 md:pt-56 pb-12 md:pb-36">
+          <p class="text-4xl md:text-6xl font-bold text-white">Rooms and Suites</p>
+          <p class="text-lg md:text-xl font-semibold text-white max-w-lg mx-auto py-6">The elegant luxury bedrooms in this gallery showcase custom interior designs & decorating ideas. View pictures and find your perfect luxury bedroom design.</p>
+      </div>
   </div>
-   <!-- Footer-->
-<div class="bg-amber-900 w-auto py-24 ">
-    <div class="mx-20 flex gap-12 justify-between">
-      <div class="box-border h-88 w-96">
-          <p class="text-4xl  text-white font-semibold py-5 ">Paradise view</p>
-          <p class="text-lg font-semibold text-white text-justify">The service at the Hotel Monteleone was exceptional. There was absolutely no issue that was not addressed timely and with satisfactory results. We were particulary<br> impressed with how the hotel staff anticipated our needs(periodically coming by the Board Room to check with us)</p>
+</div>
+
+<div class="mx-4 md:mx-20 my-8 md:my-20">
+  <div class="gap-8 md:gap-32">
+      <div class="flex flex-col md:flex-row gap-4 md:gap-16">
+          <div class="w-full md:w-1/2">
+              <p class="text-lg pb-2">Full Name</p>
+              <input class="w-full px-5 py-3 md:py-6 border outline-none border-black" type="text" name="full_name" placeholder="e.g. John Becker">
+          </div>
+          <div class="w-full md:w-1/2">
+              <p class="text-lg pb-2">Email</p>
+              <input class="w-full px-5 py-3 md:py-6 border outline-none border-black" type="email" name="email" placeholder="johnbecker@gmail.com">
+          </div>
       </div>
-      <div>
-        <p class="text-4xl  text-white font-semibold py-5 ">Quick links</p>
-        <p class="text-lg font-semibold text-white">Room booking</p>
-        <p class="text-lg font-semibold text-white">Rooms</p>
-        <p class="text-lg font-semibold text-white">Contact</p>
-        <p class="text-lg font-semibold text-white">Explore</p>
+      <div class="w-full mt-4 md:mt-8">
+          <p class="text-lg pb-2">Message</p>
+          <textarea class="w-full p-3 md:p-6 border outline-none border-black" name="message" id="" cols="30" rows="6" placeholder="Message"></textarea>
       </div>
-      <div>
-        <p class="text-4xl  text-white font-semibold py-5">Company</p>
-        <p class="text-lg font-semibold text-white">Privacy policy</p>
-        <p class="text-lg font-semibold text-white">F.A.Q</p>
-        <p class="text-lg font-semibold text-white">About</p>
+  </div>
+</div>
+<div class="mx-4 md:mx-20 my-8 md:my-20">
+  <div class="w-full h-64 md:h-96 bg-no-repeat bg-cover bg-center" style="background-image: url('images/Rectangle 36.png');">
+  </div>
+</div>
+  <!-- Footer-->
+ <div class="bg-amber-900 py-12 sm:py-24">
+  <div class="mx-4 sm:mx-20 flex flex-col sm:flex-row gap-12 justify-center">
+      <div class="box-border h-auto w-full sm:w-96">
+          <p class="text-3xl sm:text-4xl text-white font-semibold py-5">Paradise view</p>
+          <p class="text-base sm:text-lg font-semibold text-white text-justify">The service at the Hotel Monteleone was exceptional. There was absolutely no issue that was not addressed timely and with satisfactory results. We were particularly impressed with how the hotel staff anticipated our needs (periodically coming by the Board Room to check with us)</p>
       </div>
-      <div>
-        <p class="text-4xl  text-white font-semibold py-5" >Social Media</p>
-        <p class="text-lg font-semibold text-white">Facebook</p>
-        <p class="text-lg font-semibold text-white">Twitter</p>
-        <p class="text-lg font-semibold text-white" >Instagram</p>
-        <p class="text-lg font-semibold text-white" >Linkedin</p>
+      <div class="flex flex-col">
+          <div class="text-3xl sm:text-4xl text-white font-semibold py-5">Quick links</div>
+          <p class="text-lg font-semibold text-white">Room booking</p>
+          <p class="text-lg font-semibold text-white">Rooms</p>
+          <p class="text-lg font-semibold text-white">Contact</p>
+          <p class="text-lg font-semibold text-white">Explore</p>
       </div>
-      <div>
-      <p class="text-4xl  text-white font-semibold py-5">Newsletter</p>
-      <p class="text-lg font-semibold text-white pb-3">Kindly subscribe to our newsletter to get latest<br> deals on our rooms and vacation discount.</p>
-        <input class="py-2 rounded-xl" type="email" name="email" id="email" placeholder="Email">
-        <input class="text-white box-border h-12 w-20 bg-amber-700 rounded-2xl" type="submit" value="Subscribe">
+      <div class="flex flex-col">
+          <div class="text-3xl sm:text-4xl text-white font-semibold py-5">Company</div>
+          <p class="text-lg font-semibold text-white">Privacy policy</p>
+          <p class="text-lg font-semibold text-white">F.A.Q</p>
+          <p class="text-lg font-semibold text-white">About</p>
       </div>
-    </div>    
+      <div class="flex flex-col">
+          <div class="text-3xl sm:text-4xl text-white font-semibold py-5">Social Media</div>
+          <p class="text-lg font-semibold text-white">Facebook</p>
+          <p class="text-lg font-semibold text-white">Twitter</p>
+          <p class="text-lg font-semibold text-white">Instagram</p>
+          <p class="text-lg font-semibold text-white">Linkedin</p>
+      </div>
+      <div class="flex flex-col">
+          <div class="text-3xl sm:text-4xl text-white font-semibold py-5">Newsletter</div>
+          <p class="text-lg font-semibold text-white pb-3">Kindly subscribe to our newsletter to get latest deals on our rooms and vacation discount.</p>
+          <div class="flex">
+              <input class="py-2 px-4 rounded-xl mr-2" type="email" name="email" id="email" placeholder="Email">
+              <input class="py-2 px-4 bg-amber-700 text-white rounded-xl" type="submit" value="Subscribe">
+          </div>
+      </div>
+  </div>
+</div>
 </body>
 </html>
